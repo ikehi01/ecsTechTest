@@ -18,7 +18,7 @@ function createMenuData(data) {
 		}
 		else
 		{
-			//added parents to array if child found note: parent 4 not added with because of no child
+			//added parents to array if child found note: parent 4 not added because of no child
 			if (typeof line[1] !== 'undefined')
 			{
 				p.push({title:line[0], data:[line[1]]});
